@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Student Feedback Form</title>
+</head>
+<body>
+<fieldset>
+	<legend><h3><u>Student Feedback Form</u></h3></legend>
+	<p>Please provide your feedback</p>
+	<p><b>How do you rate your overall experience?</b></p>
+	<form action="">
+		<input type="radio" id="bad" name="experience" value="Bad">
+		<label for="bad">BAD</label>
+		<input type="radio" id="avg" name="experience" value="Avg">
+		<label for="avg">AVERAGE</label>
+		<input type="radio" id="good" name="experience" value="good">
+		<label for="good">GOOD</label>
+		<p>Comments:</p>
+		<textarea rows="10" cols="20"></textarea><br><br>
+		<label for="name">Your Name:</label>
+		<input type="text" id="fname" name="name"><br><br>
+		<label for="email">Email-ID:</label>
+		<input type="email" id="email" name="email"><br><br>
+		<label for="Branch">Branch:</label>
+		<select name="Branch" id="Branch">
+			<option>----Choose your branch----</option>
+			<option value="CSE">CSE</option>
+			<option value="ISE">ISE</option>
+			<option value="Mech">Mechanical</option>
+			<option value="Civil">Civil</option>
+			<option value="E&C">E&C</option>
+		</select><br><br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Clear">
+	</form>
+</fieldset>
+</body>
+</html>
