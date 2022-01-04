@@ -1,0 +1,13 @@
+table {
+	border-color: red;
+	border-collapse: collapse;
+	border-style: solid;
+}
+th {
+	color: darkblue;
+	font-family: sans-serif;
+}
+td {
+	text-align: center;
+	color: darkturquoise;
+}
