@@ -1,0 +1,26 @@
+body {
+	background-image: url(nature.jfif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#first-font {
+	font-family: Calibri;
+}
+#second-font {
+	font-family: sans-serif;
+}
+A:link {
+	color: orange;
+}
+A:hover {
+	color: green;
+}
+B:visited {
+	color: yellow;
+}
+B:active {
+	color: purple;
+}
+.hidden {
+	display: none;
+}
